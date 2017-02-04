@@ -15,7 +15,7 @@ namespace Jinhe.Migrant.App.ViewModels
     {
         protected override void Configure()
         {
-            
+            //dsfsfsd
         }
     }
 }
