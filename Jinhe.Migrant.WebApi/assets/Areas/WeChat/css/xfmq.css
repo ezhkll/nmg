@@ -1,0 +1,46 @@
+﻿.poan ul#poanlist li img.ja {
+    position:absolute;
+    display:block;
+    width:54px;
+    height:38px;
+    top:60%;
+    left:60%;
+    margin-top:-19px;
+    margin-left:-27px;
+} 
+
+.poan ul li,.zaitao ul li {
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 10px 1px;
+    padding: 10px;
+    height: 220px;
+    box-sizing:border-box;
+    position:relative;
+}
+
+.poan ul li a img,.zaitao ul li a img {
+    width: 98%;
+    height: 90%;
+    box-sizing:border-box;
+}
+
+.poan ul li a p,.zaitao ul li a p{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 10px;
+    box-sizing:border-box;
+}
+
+.poan ul li span,.zaitao ul li span{
+    position:absolute;
+    top:60%;
+    left:40%;
+    color:#FF0000;
+    font-size:24px;
+}

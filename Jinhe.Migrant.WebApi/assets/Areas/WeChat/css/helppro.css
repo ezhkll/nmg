@@ -1,0 +1,116 @@
+﻿/*--tab--*/
+.tab { 
+	width:100%; 
+	height:40px; 
+	background-color: #026AC1;
+    position:fixed;
+    top:45px;
+    left:0px;
+    z-index:13;
+}
+
+.tab a {
+	width:50%;
+	height: 40px;
+	line-height: 45px;
+	display: block;
+	float: left;
+	color: #FFF;
+	text-align: center;
+}
+
+.tab a span{
+	height:40px;
+	display: inline-block;
+	padding: 0px 15px;
+}
+
+.tab a.active span{
+	height:38px;
+	border-bottom:2px solid #F9B524;
+}
+
+/*--/tab--*/
+
+
+.tipoff .weui_cell{
+	padding: 10px;
+}
+.tipoff .weui_cell .head-pic{
+	width: 45px;
+	height: 45px;
+	border-radius: 100%;
+}
+.tipoff .weui_cell .title{
+	font-size: 18px;
+	color: #000000;
+	font-weight: 700;
+}
+.tipoff .weui_cell .place,.tipoff .weui_cell .time{
+	font-size: 12px;
+	color: #989898;
+}
+.tipoff .weui_cell .place i,.tipoff .weui_cell .time i{
+	margin-right: 2px;
+	display: inline-block;
+}
+.tipoff .weui_cell .place i{
+	width: 10px;
+	height: 13px;
+	background: url(../images/small-wz.png) no-repeat;
+    background-size: 10px 13px;
+    vertical-align: bottom;
+}
+.tipoff .weui_cell .time i{
+	width: 10px;
+	height: 10px;
+	background: url(../images/small-time.png) no-repeat;
+    background-size: 10px 10px;
+    vertical-align: middle;
+}
+.mr5{
+	margin-right: 5px;
+}
+.tipoff .weui_cell .judge{
+	font-weight: 700;
+}
+.tipoff .weui_cell .judge.yellow{
+	color: #FFBA01;
+}
+.tipoff .weui_cell .type{
+	font-size: 13px;
+}
+.tipoff .weui_cell .type i{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+    vertical-align: baseline;
+}
+.tipoff .weui_cell .type.wtfk{
+	color: #55A4D3;
+}
+.tipoff .weui_cell .type.wtfk i{
+	background: url(../images/small-wtfy.png) no-repeat;
+    background-size: 13px 13px;
+}
+.tipoff .weui_cell .type.cljg{
+	color: #89C737;
+}
+.tipoff .weui_cell .type.cljg i{
+	background: url(../images/small-cljg.png) no-repeat;
+    background-size: 13px 13px;
+}
+.tipoff .weui_cell .type.jzfk{
+	color: #FEC42A;
+}
+.tipoff .weui_cell .type.jzfk i{
+	background: url(../images/small-jafk.png) no-repeat;
+    background-size: 13px 13px;
+}
+.tipoff .weui_cell .artical{
+	margin:5px 0;
+	font-size: 13px;
+}
+.tipoff .weui_cell:before{
+	left: 0;
+}

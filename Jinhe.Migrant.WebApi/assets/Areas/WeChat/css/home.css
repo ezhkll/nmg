@@ -1,0 +1,52 @@
+﻿/*home*/
+.home .banner {
+	width:100%;
+	display: block;
+}
+
+.home .lab2{
+    color:#959595;
+    font-size:12px;
+}
+
+.home .vol_tips {
+    width: 100%;
+    line-height: 30px;
+    height: 30px;
+    background-image: url('../images/tips-bg.png');
+    background-size: auto 30px;
+    background-repeat: repeat-x;
+    color: #247103;
+    font-size: 14px;
+}
+
+.home .vol_tips span{
+    padding-left:10px;
+}
+
+.home .marquee{
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.home .marquee span {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+    -webkit-animation: marquee 10s linear infinite;
+}
+
+.home .marquee span:hover {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% { margin-left:100%; }
+  100% {  margin-left:-100%;}
+}
+
+@-webkit-keyframes marquee {
+  0% { margin-left:100%; }
+  100% {  margin-left:-100%;}
+}
